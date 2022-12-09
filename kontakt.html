@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--tarastymkiv.it.2LO@gmail.com-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mydlniki</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Napisz do nas</h1>
+
+		<nav>
+			<a href="index.html">Strona Główna</a>
+			<a href="mydlniki.html">Mydlniki</a>
+			<a href="krakow.html">Kraków</a>
+			<a href="kontakt.html">Napisz do nas</a>
+
+		</nav>
+	</header>
+
+	<aside>
+		<h3>Kontakt</h3>
+		<p>jest dostępny na tej stronie.</p>
+	</aside>
+
+	<main>
+
+		<form
+  action="https://formspree.io/f/xdojrpel"
+  method="POST"
+>
+			<div class="form-group" id="field">
+				<label id="fieldlabel">Imię*:</label>
+				<input type="text" name="imie" id="imie" required />
+			</div>
+			<div class="form-group" id="field">
+				<label id="fieldlabel">Drugie Imię:</label>
+				<input type="text" name="drugie" id="drugie" />
+			</div>
+			<div class="form-group" id="field">
+				<label id="fieldlabel">Trzecie Imię:</label>
+				<input type="text" name="trzecie" id="trzecie" />
+			</div>
+			<div class="form-group" id="field">
+				<label id="fieldlabel">Nazwisko*:</label>
+				<input type="text" name="nazwisko" id="nazwisko" required />
+			</div>
+
+			<div class="form-group">
+				<label>Płeć*:</label>
+				<input type="radio" name="plec" id="plec" value="mezczyzna" required checked />
+				<label>Mężczyzna</label>
+
+				<input type="radio" name="plec" id="plec" required />
+				<label>Kobieta</label>
+
+				<input type="radio" name="plec" id="plec" required />
+				<label>Niemiecki Śmigłowiec Szturmowy</label>
+			</div>
+
+			<div class="form-group">
+				<label>Data urodzenia*:</label>
+				<input type="date" name="urodzenie" id="urodzenie" required />
+			</div>
+			
+			<div class="form-group" id="field">
+				<label id="fieldlabel">E-mail*:</label>
+				<input type="email" name="email" id="email" required />
+			</div>
+
+			<div class="form-group">
+				<label>Komunikat*:</label>
+				<br>
+				<textarea type="textarea" name="komunikat" id="komunikat" rows="20" cols="50" required></textarea>
+			</div>
+			
+			<button type="submit">Wyślij</button>
+		</form>
+
+		<p>* - pola wymagane</p>
+
+	</main>
+
+
+	<footer>
+
+		Autor: Patryk
+	</footer>
+</body>
+
+</html>
